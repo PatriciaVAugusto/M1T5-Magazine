@@ -4,6 +4,7 @@
     text-decoration: none;
     font-family: 'Martel', serif;
 }
+
 /*Ícones para contato - primeiro bloco*/
 .icons{
     width: 100%;
@@ -13,22 +14,24 @@
     align-items: center;   
     /*background-color: rgba(0, 0, 0, 0.233);*/
 }
+
 .icons img{
     width: 35px;
     height: 35px;
     margin: 0px 0px 0px 30px;
 }
+
 /*Título principal - Moana*/
 #title{
     width: 140px;
-    height: 70px;
+    height: 11px;
     font-size: 43px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: absolute;
-    left: 615px;
+    text-shadow: 0px 4px 4px #1C1C1C, 0px 4px 4px rgba(0, 0, 0, 0.25);
     top: 90px;
+    margin-left: 628px;
     /*background-color: rgba(0, 0, 255, 0.315);*/
 }
+
 /*Menu*/
 .menu{
     width: 85%;
@@ -38,6 +41,7 @@
     /*background-color: rgba(43, 255, 0, 0.438);*/
     
 }
+
     /*Primeiro bloco - Home/ About/ Service*/
 .about{
     width: 400px;
@@ -47,12 +51,14 @@
     align-items: flex-end;
     /*background-color: rgba(255, 127, 80, 0.432);*/
 }
+
 .about a{
     color: black;
     font-size: 18px;
     font-weight: 600;
 }
-    /*Segundo bloco - Blog/ Portifolio/ Contact*/
+  
+/*Segundo bloco - Blog/ Portifolio/ Contact*/
 .blog{
     width: 400px;
     height: 40px;
@@ -62,16 +68,22 @@
     align-items: flex-end;
     /*background-color: rgba(255, 127, 80, 0.432);*/
 }
+
+
 .blog a{
     color: black;
     font-size: 18px;
     font-weight: 600;
 }
+
+
 /*Main*/
 #main{
     width: 100%;
     /*background-color: rgba(0, 0, 0, 0.493);*/
 }
+
+
 /*Seção de Introdução*/
     /*Imagem Principal*/
 .intro{
@@ -79,10 +91,21 @@
     height: 130vh;
     margin-bottom: 45px;
 }
+
+
 .intro img{
-    width: 100%;
+    /* Rectangle 1 */
+
+    width: 1366px;
+    height: 544px;
+    left: 0px;
+    top: 256px;
+
+    background: url(jealous-weekends-pq4z8CuXwUM-unsplash.jpg);
+
 }
-    /*Quadrado rosa*/
+
+/*Quadrado rosa*/
 .rectangle{
     width: 650px;
     height: 309px;;
@@ -93,7 +116,8 @@
     left: 358px;
     top: 550px;
 }
-    /*Quadrado rosa, Subtítulo - Learnit with Moana*/
+ 
+/*Quadrado rosa, Subtítulo - Learnit with Moana*/
 #subtitle{
     width: 650px;
     height: 51px;
@@ -104,7 +128,8 @@
     justify-content: center;
     align-items: center;
 }
-    /*Quadrado rosa, parágrafo - Lorem ipsum*/
+ 
+/*Quadrado rosa, parágrafo - Lorem ipsum*/
 #text{
     width: 551px;
     height: 136px;
@@ -115,4 +140,191 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/*Parte do meio */
+.middle {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+}
+
+/* Rectangle 3 imagem principal */
+.middle-image {
+    width: 600px;
+    height: 800px;
+    margin-top: -16px;
+}
+
+
+.image-1 {
+    width: 600px;
+    height: 800px;
+    top: 1118px;
+}
+
+
+.text {
+    width: 600px;
+    height: 800px;
+    margin-top: -15px;
+    display: flex;
+    border: 3px solid #F49C9C;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    line-height: 30px;
+    justify-content: space-evenly;
+}
+
+.p-text-middle {
+    margin: 35px;
+}
+
+.read-middle {
+    background: #F49C9C;
+    border-radius: 10px;    
+    margin-bottom: -81px;
+    width: 115px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+
+.link-read-middle {
+    color: #FFF0F0;
+}
+
+
+.middle-2 {
+    width: 100vw;
+    height: 141vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-bottom: 45px;
+}
+
+
+.middle-image-2 {
+    width: 600px;
+    height: 800px;
+    margin-top: 292px;
+}
+
+
+.image-2 {
+    width: 600px;
+    height: 800px;
+    top: 1110px;
+}
+
+
+.text-2 {
+    width: 600px;
+    height: 800px;
+    margin-top: 292px;
+    display: flex;
+    border: 3px solid #F49C9C;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    line-height: 30px;
+    justify-content: space-evenly;
+}
+
+.p-text-middle-2 {
+    margin: 35px;
+}
+
+.read-middle-2 {
+    background: #F49C9C;
+    border-radius: 10px;
+    margin-bottom: -81px;
+    width: 115px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.link-read-middle-2 {
+    color: #FFF0F0;
+}
+
+
+.middle-3 {
+    width: 100vw;
+    height: 168vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+}
+
+/* Rectangle 3 imagem principal */
+.middle-image-3 {
+    width: 600px;
+    height: 800px;
+    top: 1118px;
+}
+
+
+.image-3 {
+    width: 600px;
+    height: 800px;
+    margin-top: 294px;
+}
+
+
+.text-3 {
+    width: 600px;
+    height: 800px;
+    margin-top: 294px;
+    display: flex;
+    border: 3px solid #F49C9C;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    line-height: 30px;
+    justify-content: space-evenly;
+}
+
+.p-text-middle-3 {
+    margin: 35px;
+}
+
+.read-middle-3 {
+    background: #F49C9C;
+    border-radius: 10px;    
+    margin-bottom: -81px;
+    width: 115px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+
+.link-read-middle-3 {
+    color: #FFF0F0;
+}
+
+.footer {
+
+    width: 1366px;
+    height: 778px;
+    left: 1px;
+    top: 4062px;
+    background: rgba(255, 240, 240, 0.8);
+
 }
